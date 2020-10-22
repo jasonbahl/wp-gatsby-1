@@ -955,6 +955,8 @@ class ActionMonitorTest extends \Tests\WPGraphQL\TestCase\WPGraphQLTestCase {
 
 		// If a hierarchical term is update with a parent term and child
 		// We need a DELETE action for the term being deleted, UPDATE action for the parent, UPDATE action for each child
+		$test_written = false;
+		$this->assertTrue( $test_written );
 
 	}
 }
